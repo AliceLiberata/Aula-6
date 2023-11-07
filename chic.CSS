@@ -1,0 +1,53 @@
+header{
+       background-color: #dc977b;
+       height: 125px;
+       text-align: center;
+   }
+
+ul{
+       list-style-type: none;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       color: #79b2ba;
+       font-size: 20px;
+   }
+
+nav{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       background-color: #475794;
+   }
+
+nav ul li:hover{
+      color: #dc977b;
+      cursor: pointer;
+   }
+   
+a:link{
+      color: #0e3813;
+   }
+a:visited{
+      color: #6aa571;
+   }
+   
+h2{
+      color: #475794;
+   }
+
+footer{
+      text-align: center;
+      background-color: #dc977b;
+   }
+
+h1{
+      animation-name: título;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+   }
+@keyframes título{
+   0% { color: #475794;  color:#79b2ba }
+   50% { color: #79b2ba;  color:#475794 }
+   100% { color: #475794;  color:#79b2ba }
+}
